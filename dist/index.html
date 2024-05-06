@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+  <script type="module" crossorigin src="./assets/index-BU1lBLaR.js"></script>
+</head>
+
+<body>
+  
+  <div id="app">
+    
+
+  </div>
+  <style>
+    @font-face {
+      font-family: 'cubic';
+      src: url('./assets/Cubic_11_1.100_R-CbiVzg0F.ttf');
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      background-color: rgb(97, 83, 133);
+    }
+    #app {
+      display: flex;
+      justify-content: center;
+      
+      height: 100vh;
+      
+    }
+
+    .workcontainer {
+      background-image: url('./assets/bg2-BC2x7Oqk.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 40px;
+      border-radius: 30px;
+      position: absolute;
+      
+      width: 80%;
+    }
+
+    .block::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(255, 255, 255, .1);
+      /* filter: blur(20px); */
+      z-index: -1;
+      border-radius: 30px;
+      /* debug用的紅色背景 */
+    }
+
+    #works {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+    }
+
+    .block {
+      display: flex;
+
+    }
+
+    p {
+      font-family: 'cubic';
+      color: black;
+      font-size: 20px;
+      padding: 10px;
+      border: 2px solid black;
+      opacity: 1;
+
+    }
+
+    img {
+      width: 300px;
+      border-radius: 20px;
+      margin-top: 20px;
+      margin-right: 20px;
+    }
+    .close{
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAYAAADJViUEAAAAAXNSR0IArs4c6QAAAJVJREFUKJFjYKAAMCJzFOUN/hPScP/hBbgeFmSNh7WlCNpmy8DwH2YAIyka4QZcfcZw/+EFRiZ0CemtWxmkt24lKMbAwMCAoRlZAzKNDWBofurtjWEAujhem9EVYtOIUzM2PxOlGZdTSQowmEZcTmZgQEok2GzDJ4Zis+3VZzhtQAbI6lhwSRAD4ImcmEwBA8iZg2wAAG7QOVYEZMyYAAAAAElFTkSuQmCC');
+      width: 15px;
+      height: 16px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: transparent;
+      border: none;
+      scale: 2;
+    }
+    #scoreText{
+      font-family: 'cubic';
+      position: absolute;
+      top: 10%;
+      left: 20%;
+      font-size: 36px;
+      color: aliceblue;
+    }
+    embed{
+      height: 80vh;
+    }
+  </style>
+</body>
+
+</html>
